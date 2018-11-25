@@ -1,0 +1,32 @@
+#title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: -60px;
+  padding-left: 10px;
+}
+
+#mainmenu {
+  position: absolute;
+  bottom:0%;
+  left:0;
+  right:0;
+  margin: 20px;
+  color: #FFFFFF;
+}
+
+.menuitem p {
+  color: #ffffff;
+  transition: color 100ms linear;
+  cursor: pointer;
+}
+
+.menuitem:hover {
+  color:#0099ff;
+}
