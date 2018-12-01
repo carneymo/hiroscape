@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
+import $ = require('jquery')
 
 // @ts-ignore
 @Component({
@@ -18,6 +19,13 @@ export class MainScreenComponent implements OnInit {
   }
 
   ngOnInit() {
+      this.runScript();
+  }
+
+  runScript() {
+      $('#screen-presentation').append(
+          "<span class='line'>Hello?</span>"
+      );
   }
 
 }

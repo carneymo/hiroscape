@@ -7,6 +7,7 @@ import { MaingameComponent } from './maingame/maingame.component';
 import { MenuComponent } from './menu/menu.component';
 import { TopNavBarComponent } from './maingame/components/top-nav-bar/top-nav-bar.component';
 import { MainScreenComponent } from './maingame/components/main-screen/main-screen.component';
+import { BackgroundComponent } from './background/background.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MainScreenComponent } from './maingame/components/main-screen/main-scre
     MaingameComponent,
     MenuComponent,
     TopNavBarComponent,
-    MainScreenComponent
+    MainScreenComponent,
+    BackgroundComponent
   ],
   imports: [
     BrowserModule,
